@@ -1,0 +1,125 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #ff5e78, #ffcc70); /* Fallback for older browsers */
+    background-size: 400% 400%; /* To create smooth transitions across colors */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    animation: gradientBG 15s ease infinite; /* Color-changing animation */
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; background-color: #ff5e78; }   /* Romantic Pink */
+    25% { background-position: 50% 50%; background-color: #ffcc70; } /* Warm Yellow */
+    50% { background-position: 100% 50%; background-color: #7ae8b0; }/* Refreshing Green */
+    75% { background-position: 50% 50%; background-color: #70d1ff; } /* Sky Blue */
+    100% { background-position: 0% 50%; background-color: #b385ff; } /* Lovely Purple */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    color: #ff5e78;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#quote {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    opacity: 0; /* Start hidden */
+    animation: fadeSlideIn 1.5s ease-out forwards; /* Trigger animation */
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #ff5e78;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: float 3s ease-in-out infinite;
+}
+
+button:hover {
+    background-color: #ff7b8e;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.calendar {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="date"]:focus {
+    border-color: #ff5e78;
+    outline: none;
+}
+
+audio {
+    margin-top: 20px;
+}
+
+.welcome {
+    position: absolute; /* Keep it absolutely positioned */
+    top: 80px; /* Lower it down */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center */
+    font-size: 30px;
+    color: #ff5e78; /* Romantic pink */
+    font-weight: bold;
+    animation: fadeIn 1.5s ease-in-out;
+    text-align: center; /* Center text */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+}
+
+/* Animation for the quote */
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start slightly below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Slide into place */
+    }
+}
+
+/* Ensure this doesn't affect visibility before a quote is shown */
+.hidden {
+    display: none;
+}

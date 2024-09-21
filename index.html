@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365 Tamil Quotes for You</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Stylish Welcome Message -->
+    <div id="welcome-message" class="welcome"></div>
+
+    <div class="container">
+        <h1>Quote of the Day</h1>
+        <p id="quote"></p>
+
+        <!-- Button to get today's message -->
+        <button id="today-btn">Get Today's Message</button>
+
+        <!-- Calendar to select a date for past messages -->
+        <div class="calendar">
+            <label for="date-picker">Choose a date:</label>
+            <input type="date" id="date-picker" min="2024-09-14" max="2025-09-14">
+        </div>
+
+        <!-- Audio player for background music -->
+        <audio id="bg-music" controls>
+            <source id="audio-source" src="" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
