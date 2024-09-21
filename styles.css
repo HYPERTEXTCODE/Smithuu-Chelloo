@@ -95,16 +95,15 @@ audio {
 }
 
 .welcome {
-    position: absolute; /* Keep it absolutely positioned */
-    top: 80px; /* Lower it down */
+    position: absolute; /* Position it absolutely */
+    top: 20px; /* Distance from the top */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust to center */
-    font-size: 30px;
-    color: #ff5e78; /* Romantic pink */
+    font-size: 20px;
+    color: #ff5e78;
     font-weight: bold;
     animation: fadeIn 1.5s ease-in-out;
     text-align: center; /* Center text */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
 }
 
 /* Animation for the quote */
@@ -119,7 +118,7 @@ audio {
     }
 }
 
-/* Ensure this doesn't affect visibility before a quote is shown */
+/* Ensure this doesn't affect visibility before a quote is shown */A
 .hidden {
     display: none;
 }
