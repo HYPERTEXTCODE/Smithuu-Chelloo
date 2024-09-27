@@ -57,8 +57,7 @@ const musicPaths = [
     "music/day11.mp3", // Path to music for Sept 22, 2024
     "music/day12.mp3", // Path to music for Sept 22, 2024
     "music/day13.mp3", // Path to music for Sept 22, 2024
-    "music/day14.mp3", // Path to music for Sept 22, 2024
-    "music/day15.mp3" // Path to music for Sept 22, 2024
+    "music/day14.mp3", // Path to music for Sept 22, 20
     // Add paths to 363 more music files here
 ];
 
