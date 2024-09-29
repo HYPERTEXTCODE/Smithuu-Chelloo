@@ -62,24 +62,7 @@ const musicPaths = [
     "music/day15.mp3", // Path to music for Sept 28, 2024
     "music/day16.mp3", // Path to music for Sept 29, 2024
     "music/day17.mp3", // Path to music for Sept 30, 2024
-    "music/day18.mp3", // Path to music for Oct 01, 2024
-    "music/day19.mp3", // Path to music for Oct 02, 2024
-    "music/day20.mp3", // Path to music for Oct 03, 2024
-    "music/day21.mp3", // Path to music for Oct 04, 2024
-    "music/day22.mp3", // Path to music for Oct 05, 2024
-    "music/day23.mp3", // Path to music for Oct 06, 2024
-    "music/day24.mp3", // Path to music for Oct 07, 2024
-    "music/day25.mp3", // Path to music for Oct 08, 2024
-    "music/day26.mp3", // Path to music for Oct 09, 2024
-    "music/day27.mp3", // Path to music for Oct 10, 2024
-    "music/day28.mp3", // Path to music for Oct 11, 2024
-    "music/day29.mp3", // Path to music for Oct 12, 2024
-    "music/day30.mp3", // Path to music for Oct 13, 2024
-    "music/day31.mp3", // Path to music for Oct 14, 2024
-    "music/day32.mp3", // Path to music for Oct 15, 2024
-    "music/day33.mp3", // Path to music for Oct 16, 2024
-    "music/day34.mp3", // Path to music for Oct 17, 2024
-    // Add paths to 363 more music files here
+    "music/day18.mp3" // Path to music for Oct 01, 2024
 ];
 
 // Function to calculate the difference between the first day and the selected/current day
