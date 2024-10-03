@@ -66,7 +66,9 @@ const musicPaths = [
     "music/day15.mp3", // Path to music for Sept 28, 2024
     "music/day16.mp3", // Path to music for Sept 29, 2024
     "music/day17.mp3", // Path to music for Sept 30, 2024
-    "music/day18.mp3" // Path to music for Oct 01, 2024
+    "music/day18.mp3", //
+    "music/day19.mp3", //
+    "music/day20.mp3", // Path to music for Oct 01, 2024
 ];
 
 // Function to calculate the difference between the first day and the selected/current day
